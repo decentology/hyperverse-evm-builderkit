@@ -1,0 +1,43 @@
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mcache hit, replaying output [2mdb54b2b8fc970e7c[0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0myarn run v1.22.17
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m$ parcel build
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mconsole: (node:2555103) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 13 unpipe listeners added to [Socket]. Use emitter.setMaxListeners() to
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mincrease limit
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m(Use `node --trace-warnings ...` to show where the warning was created)
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mconsole: (node:2555103) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 13 error listeners added to [Socket]. Use emitter.setMaxListeners() to
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mincrease limit
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mconsole: (node:2555103) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 13 close listeners added to [Socket]. Use emitter.setMaxListeners() to
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mincrease limit
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mconsole: (node:2555103) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 13 finish listeners added to [Socket]. Use emitter.setMaxListeners() to
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0mincrease limit
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m🚨 Build failed.
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m@parcel/core: Failed to resolve 'react/jsx-runtime' from './packages/hyperverse-ethereum-starterkit/source/Provider.tsx'
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  /home/jsheely/Projects/Decentology/hyperverse-base/packages/hyperverse-ethereum-starterkit/source/Provider.tsx:1:1
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  > 1 | import { createContext, FC } from 'react';
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  >   | ^
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m    2 | import { useEthereum } from '@decentology/hyperverse-ethereum';
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m    3 | import { QueryClientProvider, QueryClient } from 'react-query';
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m@parcel/resolver-default: External dependency "react" is not declared in package.json.
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  /home/jsheely/Projects/Decentology/hyperverse-base/packages/hyperverse-ethereum-starterkit/package.json:16:3
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m    15 |   },
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  > 16 |   "dependencies": {
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  >    |   ^^^^^^^^^^^^^^
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m    17 |     "@decentology/hyperverse": "^1.0.0",
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m    18 |     "@decentology/hyperverse-ethereum": "^1.0.0",
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m  💡 Add "react" as a dependency.
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0m
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0merror Command failed with exit code 1.
+[36m@decentology/hyperverse-ethereum-starterkit:build: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

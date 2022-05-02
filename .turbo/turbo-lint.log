@@ -1,0 +1,5 @@
+[36m@decentology/hyperverse-evm-builderkit:lint: [0mcache hit, replaying output [2m521e7447a84aec56[0m
+[36m@decentology/hyperverse-evm-builderkit:lint: [0m
+[36m@decentology/hyperverse-evm-builderkit:lint: [0m> @decentology/hyperverse-evm-builderkit@1.0.0 lint /home/jsheely/Projects/Decentology/hyperverse-base/packages/hyperverse-evm-builderkit
+[36m@decentology/hyperverse-evm-builderkit:lint: [0m> tsc --noEmit
+[36m@decentology/hyperverse-evm-builderkit:lint: [0m
