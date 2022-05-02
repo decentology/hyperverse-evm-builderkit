@@ -1,7 +1,7 @@
 import { HyperverseProvider } from './utils/Provider';
 import { Meta, Story } from '@storybook/react';
 import { useModule } from '../source';
-import { useEvm } from '@decentology/hyperverse-evm/source';
+import { useEvm } from '@decentology/hyperverse-evm';
 const Button = () => {
 	const { connect } = useEvm();
 	const { factoryContract } = useModule();

@@ -4,6 +4,7 @@
 	"exclude": ["distribution", "node_modules", "node_modules/**"],
 	"compilerOptions": {
 		"resolveJsonModule": true,
-		"preserveSymlinks": true
+		"preserveSymlinks": true,
+    "rootDir": "."
 	}
 }
