@@ -33,6 +33,8 @@
 		"@decentology/unstated-next": "*",
 		"ethers": "^5.5.3",
 		"http-proxy-middleware": "^2.0.4",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
 		"react-query": "^3.34.7",
 		"react-use": "^17.3.2",
 		"real-cancellable-promise": "^1.1.1"
@@ -62,8 +64,5 @@
 		"rimraf": "^3.0.2",
 		"typescript": "^4.6.2",
 		"wait-on": "^6.0.1"
-	},
-	"resolutions": {
-		"acorn": "8.0.1"
 	}
 }
