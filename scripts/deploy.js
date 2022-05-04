@@ -1,5 +1,6 @@
 const hre = require('hardhat');
 const fs = require('fs-extra');
+const { constants } = require('ethers');
 const main = async () => {
 	const [deployer] = await ethers.getSigners();
 	console.log('Deployer Address: ', deployer.address);
@@ -21,15 +22,22 @@ const main = async () => {
 
 	// Save contract addresses back to file
 	fs.writeJsonSync('contracts.json', env, { spaces: 2 });
+
+	// Deploy default tenant
+	let proxyAddress = constants.AddressZero;
+	await moduleFactory.createInstance(deployer.address);
+	while (proxyAddress === constants.AddressZero) {
+		proxyAddress = await moduleFactory.getProxy(deployer.address);
+	}
 };
 
 const runMain = async () => {
 	try {
 		await main();
-		process.exit(0);
+		// process.exit(0);
 	} catch (error) {
 		console.error(error);
-		process.exit(1);
+		// process.exit(1);
 	}
 };
 
