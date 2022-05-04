@@ -16,7 +16,7 @@ export default {
 } as Meta;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: Story = (args) => (
+const Template: Story = (args: any) => (
 	<HyperverseProvider>
 		<Button {...args} />
 	</HyperverseProvider>
