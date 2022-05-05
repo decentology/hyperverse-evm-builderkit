@@ -1,3 +1,8 @@
+
+<p align="center">
+<img src="https://cloudflare-ipfs.com/ipfs/QmSykXwH68p9ZVgBfVda66z9obtHMSds9U8hSHegKDHpmN" width="256" alt="Hyperverse logo" />
+</p>
+
 # Hyperverse EVM Builderkit
 
 This is a initial scaffold project to assit with building a smart module for the Hypervers
