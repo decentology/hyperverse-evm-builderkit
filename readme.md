@@ -29,9 +29,5 @@ The javascript source connects to the smart module using `ethers` by default. Th
 # Documentation
 For more information and learn about Hyperverse checkout the resources below
 
-- 
-- 
-- 
-
-
-
+- [Hyperverse Documentation](https://docs.hyperverse.dev/)
+- [Decentology YouTube Channel](https://www.youtube.com/c/Decentology)
