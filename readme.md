@@ -5,13 +5,13 @@
 
 # Hyperverse EVM Builderkit
 
-This is a initial scaffold project to assit with building a smart module for the Hypervers
+This is an initial scaffold project to assit with building a smart module for the Hyperverse
 
 ## How the project is setup
 
 1. `Contracts` - This is the first layer. Think of this as your database model and repository for how to fetch and store data
 2. `Source` - Contains your javascript interface to your contracts. 
-3. `Stories` - This is your UI inteterface to your smart module that allows for documentating and testing the functionality of your smarat module
+3. `Stories` - This is your UI inteterface to your smart module that allows for documentating and testing the functionality of your smart module
 
 
 ## Contracts
