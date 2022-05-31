@@ -1,0 +1,5 @@
+@decentology/hyperverse-evm-erc721:lint: cache hit, replaying output [2m082e4ceb5560dafe[0m
+[36m@decentology/hyperverse-evm-erc721:lint: [0m
+[36m@decentology/hyperverse-evm-erc721:lint: [0m> @decentology/hyperverse-evm-erc721@1.0.6 lint /home/jsheely/Projects/Decentology/hyperverse-base/packages/hyperverse-evm-erc721
+[36m@decentology/hyperverse-evm-erc721:lint: [0m> tsc --noEmit
+[36m@decentology/hyperverse-evm-erc721:lint: [0m

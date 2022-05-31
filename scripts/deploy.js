@@ -37,7 +37,7 @@ async function main() {
 	fs.writeJsonSync('contracts.json', env, { spaces: 2 });
 	let proxyAddress = constants.AddressZero;
 	const instanceTnx = await nftFactoryContract.createInstance(deployer.address, 'Test', 'TST');
-	await instanceTnx.wait();
+	instanceTnx.wait();
 	console.log('Instance Created', instanceTnx.hash);
 	while (proxyAddress === constants.AddressZero) {
 		try {

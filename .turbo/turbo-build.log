@@ -1,0 +1,11 @@
+@decentology/hyperverse-evm-erc721:build: cache hit, replaying output [2ma6f70b7d286609d2[0m
+[35m@decentology/hyperverse-evm-erc721:build: [0m
+[35m@decentology/hyperverse-evm-erc721:build: [0m> @decentology/hyperverse-evm-erc721@1.0.7 build /home/jsheely/Projects/Decentology/hyperverse-base/packages/hyperverse-evm-erc721
+[35m@decentology/hyperverse-evm-erc721:build: [0m> rollup --config node:@decentology/config/rollup.config.js
+[35m@decentology/hyperverse-evm-erc721:build: [0m
+[35m@decentology/hyperverse-evm-erc721:build: [0m[36m
+[35m@decentology/hyperverse-evm-erc721:build: [0m[1m./source/index.ts[22m → [1mdistribution, distribution[22m...[39m
+[35m@decentology/hyperverse-evm-erc721:build: [0m[32mcreated [1mdistribution, distribution[22m in [1m152ms[22m[39m
+[35m@decentology/hyperverse-evm-erc721:build: [0m[36m
+[35m@decentology/hyperverse-evm-erc721:build: [0m[1m./source/index.ts[22m → [1mdistribution/index.d.ts[22m...[39m
+[35m@decentology/hyperverse-evm-erc721:build: [0m[32mcreated [1mdistribution/index.d.ts[22m in [1m1.7s[22m[39m
