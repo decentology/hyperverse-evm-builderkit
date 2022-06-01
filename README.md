@@ -53,7 +53,7 @@ Create your own branch
 Install dependencies
 ```bash
   npm i 
-  //or
+  # or
   pnpm i
 ```
 
