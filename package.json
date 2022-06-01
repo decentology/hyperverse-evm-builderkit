@@ -40,6 +40,8 @@
 		"@decentology/unstated-next": "^1.1.9",
 		"@openzeppelin/contracts": "^4.6.0",
 		"ethers": "^5.6.8",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
 		"react-use": "^17.4.0",
 		"real-cancellable-promise": "^1.1.1"
 	},
@@ -57,6 +59,7 @@
 		"@storybook/addon-links": "^6.5.6",
 		"@storybook/addons": "^6.5.6",
 		"@storybook/builder-webpack5": "^6.5.6",
+		"@storybook/cli": "^6.5.6",
 		"@storybook/manager-webpack5": "^6.5.6",
 		"@storybook/react": "^6.5.6",
 		"@storybook/testing-library": "^0.0.11",
