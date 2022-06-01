@@ -1,11 +1,11 @@
-import { GetOwnerOf } from './getOwnerOf';
+import { Mint } from './mint';
 import { HyperverseProvider } from './utils/Provider';
 import React from 'react';
-import Doc from '../docs/getOwnerOf.mdx';
+import Doc from '../docs/mint.mdx';
 
 export default {
-	title: 'Components/GetOwnerOf',
-	component: GetOwnerOf,
+	title: 'Components/Mint',
+	component: Mint,
 	parameters: {
 		docs: {
 			page: Doc,
@@ -15,12 +15,12 @@ export default {
 
 const Template = (args) => (
 	<HyperverseProvider>
-		<GetOwnerOf {...args} />
+		<Mint {...args} />
 	</HyperverseProvider>
 );
 
 export const Demo = Template.bind({});
 
 Demo.args = {
-	tokenId: 1
+	to: '0x976EA74026E726554dB657fA54763abd0C3a0aa9'
 };
