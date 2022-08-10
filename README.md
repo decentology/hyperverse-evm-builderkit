@@ -5,7 +5,7 @@
 
 # Hyperverse EVM Builderkit
 
-This is an initial scaffold project to assit with building a smart module for the Hyperverse
+This is a initial scaffold project to assit with building a smart module for the Hypervers
 
 ## How the project is setup
 

@@ -1,6 +1,6 @@
 # Approve
 
-<p> The `approve` function from `erc721Library` sets ... </p>
+<p> The `approve` function from `erc721Library` approves the transfer of a token to another address. </p>
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### approve
 
-<p> The `approve` function takes in ... </p>
+<p> The `approve` function takes in the target address and the token Id. </p>
 
 ```jsx
   const approve = async ({ to, tokenId }: { to: string; tokenId: number }) => {
@@ -56,7 +56,7 @@ Demo.args = {
 ### Main UI Component
 
 ```jsx
-import { useERC721 } from '../source';
+import { useERC721 } from '../source/react';
 import { useEvm } from '@decentology/hyperverse-evm';
 import './style.css';
 

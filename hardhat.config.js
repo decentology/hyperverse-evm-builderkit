@@ -38,7 +38,11 @@ module.exports = {
 			accounts,
 		},
 		polygon: {
-			url: 'https://rpc-mumbai.maticvigil.com',
+			url: 'https://matic-mumbai.chainstacklabs.com/',
+			accounts,
+		},
+		celo: {
+			url: 'https://alfajores-forno.celo-testnet.org',
 			accounts,
 		},
 	},

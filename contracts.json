@@ -1,29 +1,29 @@
 {
   "metis": {
     "testnet": {
-      "contractAddress": "0xACec20ad889Ba58Ec9d65AB0aA7C0e0D151222e0",
-      "factoryAddress": "0xb38d8C98646C7F07fdc0512e1DB9ee25BfE77F30"
+      "contractAddress": "0xdd77EE04Ea739eE7aED84bd9Ca26135f81743eEC",
+      "factoryAddress": "0xec7F6FB2cF54AD8EE56B97658C6Be4Fe92E082f5"
     },
     "mainnet": {}
   },
   "avalanche": {
     "testnet": {
-      "contractAddress": "0x995d701c0CaAeDA88DBF21727202F3a61AF01177",
-      "factoryAddress": "0xACec20ad889Ba58Ec9d65AB0aA7C0e0D151222e0"
+      "contractAddress": "0xB872bba890D7D2F555f68b078CcbE9E40DA2b3cd",
+      "factoryAddress": "0x1F7c352ccF96974dC696b693b54E90248ce7A6D0"
     },
     "mainnet": {}
   },
   "ethereum": {
     "testnet": {
-      "contractAddress": "0x95557ee579CD0321129e2aA9353FA61748401Ab0",
-      "factoryAddress": "0x3bcABe3A2b90Ea7C08A0987030f34e9D7A78fE8e"
+      "contractAddress": "0x7Cae25FEB0812F2b0a47c377D78d1656ce109fcb",
+      "factoryAddress": "0x60246c5ca42D7fF214ae8884f40061D96921DCD9"
     },
     "mainnet": {}
   },
   "polygon": {
     "testnet": {
-      "contractAddress": "0x1f6c0449EA114c4A5A542d20801650066Ef8767D",
-      "factoryAddress": "0x17f32a93376C24b4EFdAaeA72a1173606e7A2d1C"
+      "contractAddress": "0x1a45fe820062B934d9032678aD832d3B71b4d403",
+      "factoryAddress": "0xE1002dF972079b676c34E94B55e0c3aE8cB7f7BD"
     },
     "mainnet": {}
   },
@@ -32,12 +32,19 @@
       "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
       "factoryAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
     },
-	"mainnet": {}
+    "mainnet": {}
   },
   "hardhat": {
     "testnet": {
       "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
       "factoryAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+    },
+    "mainnet": {}
+  },
+  "celo": {
+    "testnet": {
+      "contractAddress": "0x5075a0259b418fbD46211B81AfA766157e7DD135",
+      "factoryAddress": "0x4330f8f04490d09852e6916777e15259dF195F6A"
     }
   }
 }
